@@ -1,0 +1,41 @@
+.posts-container {
+  margin-top: 45px;
+  padding: 10px;
+  height: 90%;
+  min-height: 90%;
+  overflow-x: auto;
+}
+
+.post-list {
+  margin: 0 auto;
+  width: 600px;
+  margin-bottom: 10px;
+}
+
+.post-list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  box-shadow: 10px 5px 10px #9e9c9c;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 28px;
+  height: 50px;
+  width: 100%;
+}
+
+.title-href {
+  color: black;
+}
+
+.publish-info {
+  height: 50px;
+  margin-top: 40px;
+  font-size: 25px;
+}

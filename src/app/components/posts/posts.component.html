@@ -1,0 +1,15 @@
+<div class="posts-container">
+    <div class="post-list">
+        <div class="post-list-item" *ngFor="let post of posts">
+            <div class="title">
+                <a href="{{post.url}}" class="title-href">
+                    <p>{{post.title}}</p>
+                </a>
+            </div>
+            <div class="publish-info">
+                <p class="author">{{post.authorName}}</p>
+                <p class="date">Date: {{post.creationDate | date}}</p>
+            </div>
+        </div>
+    </div>
+</div>
